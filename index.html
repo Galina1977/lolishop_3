@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="pobots" content="none">
+   <meta name="Author" content="Галина Пенер">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lolishop | Contact</title>
+   <link rel="shortcut icon" href="/images/favicon.ico" type="image/favicon.ico">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+   <div class="wrapper">
+
+      <header class="header">
+         <div class="header__top">
+            <div class="header__container _container">
+               <div class="header__body">
+                  <a href="#" class="header__logo logo">
+                     <img class="logo__img" src="images/logo.svg" alt="Lolishop">
+                  </a>
+                  <div class="header__menu menu">
+                     <nav class="menu__body">
+                        <ul class="menu__list">
+                           <li class="menu__item">
+                              <a class="menu__link" href="">Главная</a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link" href="">Магазин</a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link" href="">Страница товара</a>
+                           </li>
+                           <li class="menu__item">
+                              <a class="menu__link" href="">Блог</a>
+                           </li>
+                           <li class="menu__item">
+                              <span>Контакт</span>
+                           </li>
+                        </ul>
+                     </nav>
+                  </div>
+                  <div class="header__actions actions-header">
+                     <div class="actions-header__item search-form">
+                        <button type="button" class="search-form__icon _icon-search"></button>
+                        <form action="#" class="search-form__item">
+                           <button type="submit" class="search-form__btn _icon-search"></button>
+                           <input type="text" name="text" placeholder="Поиск" class="search-form__input">
+                        </form>
+                     </div>
+                     <div class="actions-header__item favorites-header">
+                        <a href="#!" class="favorites-header__icon _icon _icon-favorite">
+                           <span class="favorites-header__number _number">1</span>
+                        </a>
+                     </div>
+                     <div class="actions-header__item cart-header">
+                        <a href="#!" class="cart-header__icon _icon _icon-cart">
+                           <span class="cart-header__number _number">2</span>
+                        </a>
+                     </div>
+                     <div class="actions-header__item user">
+                        <a class="user__icon _icon _icon-user js-popup__link" href="#popup-registration"></a>
+                        <div id="popup-registration" class="popup mfp-hide">
+                           <div class="popup__header">
+                              <span class="popup__title">Вход в аккаунт</span>
+                              <div class="popup__close">
+                                 <svg class="popup__close-icon close">
+                                    <use xlink:href="images/icons/close.svg#close"></use>
+                                 </svg>
+                              </div>
+                           </div>
+                           <div class="popup__body">
+                              <form class="form-registration" action="#">
+                                 <div class="form-registration__line">
+                                    <div class="form-registration-group form-registration-group--required">
+                                       <div class="form-registration-group__body">
+                                          <label class="form-registration-group__label">Пользователь</label>
+                                          <input class="form-registration-group__input" type="text" name="name" placeholder="Пользователь">
+                                       </div>
+                                       <div class="form-registration-group__body">
+                                          <label class="form-registration-group__label">Введите пароль</label>
+                                          <input class="form-registration-group__input" type="password" name="password" placeholder="Введите пароль">
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="form-registration__line">
+                                    <div class="form-registration-group">
+                                       <button class="form-registration-group__btn" type="submit">Авторизация</button>
+                                    </div>
+                                 </div>
+                                 <div class="form-registration__line">
+                                    <div class="form-registration-group">
+                                       <a class="form-registration-group__info-link" href="#!">У вас нет аккуанта? Регистрация</a>
+                                    </div>
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <button class="header__burger" type="button">
+                     <span></span>
+                  </button>
+               </div>
+            </div>
+         </div>
+         <div class="header__bottom">
+            <div class="header__container _container">
+               <div class="header__bottom-inner">
+                  <div class="catalog-nav">
+                     <div class="catalog-nav__burger burger">
+                        <button class="burger__btn" type="button">
+                           <span></span>
+                        </button>
+                        <span class="burger__title">Каталог товаров</span>
+                     </div>
+                     <div class="catalog-nav__body">
+                        <nav class="catalog-nav__menu">
+                           <ul class="catalog-nav__list">
+                              <li class="catalog-nav__item">
+                                 <a class="catalog-nav__label" href="#!">
+                                    <span class="catalog-nav__label-text">Женщинам</span>
+                                    <span class="catalog-nav__count-text count-text">23</span>
+                                 </a>
+                                 <div class="catalog-nav-submenu" data-simplebar>
+                                    <div class="catalog-nav-submenu__inner">
+                                       <div class="catalog-nav-submenu__col">
+                                          <div class="catalog-nav-submenu__block">
+                                             <div class="catalog-nav-submenu__header">
+                                                <span class="catalog-nav-submenu__title">Одежда</span>
+                                             </div>
+                                             <ul class="catalog-nav-submenu__list">
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__text">Блузки</span>
+                                                      <span class="catalog-nav-submenu__count-text count-text">102</span>
+                                                   </a>
+                                                </li>
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__text">Рубашки</span>
+                                                      <span class="catalog-nav-submenu__count-text count-text">92</span>
+                                                   </a>
+                                                </li>
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__text">Брюки</span>
+                                                      <span class="catalog-nav-submenu__count-text count-text">68</span>
+                                                   </a>
+                                                </li>
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__categories">Все категории</span>
+                                                   </a>
+                                                </li>
+                                             </ul>
+                                          </div>
+                                          <div class="catalog-nav-submenu__block">
+                                             <div class="catalog-nav-submenu__header">
+                                                <span class="catalog-nav-submenu__title">Свадьба</span>
+                                             </div>
+                                             <ul class="catalog-nav-submenu__list">
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__text">Аксессуары</span>
+                                                      <span class="catalog-nav-submenu__count-text count-text">95</span>
+                                                   </a>
+                                                </li>
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__text">Свадебные платья</span>
+                                                      <span class="catalog-nav-submenu__count-text count-text">202</span>
+                                                   </a>
+                                                </li>
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__text">Обувь для невесты</span>
+                                                      <span class="catalog-nav-submenu__count-text count-text">195</span>
+                                                   </a>
+                                                </li>
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__categories">Все категории</span>
+                                                   </a>
+                                                </li>
+                                             </ul>
+                                          </div>
+                                          <div class="catalog-nav-submenu__block">
+                                             <div class="catalog-nav-submenu__header">
+                                                <span class="catalog-nav-submenu__title">Офис</span>
+                                             </div>
+                                             <ul class="catalog-nav-submenu__list">
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__text">Костюмы</span>
+                                                      <span class="catalog-nav-submenu__count-text count-text">33</span>
+                                                   </a>
+                                                </li>
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__text">Рубашки</span>
+                                                      <span class="catalog-nav-submenu__count-text count-text">54</span>
+                                                   </a>
+                                                </li>
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__text">Кардиганы</span>
+                                                      <span class="catalog-nav-submenu__count-text count-text">23</span>
+                                                   </a>
+                                                </li>
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__categories">Все категории</span>
+                                                   </a>
+                                                </li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                       <div class="catalog-nav-submenu__col">
+                                          <div class="catalog-nav-submenu__block">
+                                             <div class="catalog-nav-submenu__header">
+                                                <span class="catalog-nav-submenu__title">Большие размеры</span>
+                                             </div>
+                                             <ul class="catalog-nav-submenu__list">
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__text">Джинсы, брюки</span>
+                                                      <span class="catalog-nav-submenu__count-text count-text">69</span>
+                                                   </a>
+                                                </li>
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__text">Верхняя одежда</span>
+                                                      <span class="catalog-nav-submenu__count-text count-text">57</span>
+                                                   </a>
+                                                </li>
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__categories">Все категории</span>
+                                                   </a>
+                                                </li>
+                                             </ul>
+                                          </div>
+                                          <div class="catalog-nav-submenu__block">
+                                             <div class="catalog-nav-submenu__header">
+                                                <span class="catalog-nav-submenu__title">Будущие мамы</span>
+                                             </div>
+                                             <ul class="catalog-nav-submenu__list">
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__text">Бельё и купальники</span>
+                                                      <span class="catalog-nav-submenu__count-text count-text">101</span>
+                                                   </a>
+                                                </li>
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__text">Блузки, рубашки</span>
+                                                      <span class="catalog-nav-submenu__count-text count-text">96</span>
+                                                   </a>
+                                                </li>
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__text">Брюки, джинсы</span>
+                                                      <span class="catalog-nav-submenu__count-text count-text">114</span>
+                                                   </a>
+                                                </li>
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__categories">Все категории</span>
+                                                   </a>
+                                                </li>
+                                             </ul>
+                                          </div>
+                                          <div class="catalog-nav-submenu__block">
+                                             <div class="catalog-nav-submenu__header">
+                                                <span class="catalog-nav-submenu__title">Одежда для дома</span>
+                                             </div>
+                                             <ul class="catalog-nav-submenu__list">
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__text">Брюки и шорты</span>
+                                                      <span class="catalog-nav-submenu__count-text count-text">45</span>
+                                                   </a>
+                                                </li>
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__text">Блузки и туники</span>
+                                                      <span class="catalog-nav-submenu__count-text count-text">30</span>
+                                                   </a>
+                                                </li>
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__text">Костюмы и комбинезоны</span>
+                                                      <span class="catalog-nav-submenu__count-text count-text">52</span>
+                                                   </a>
+                                                </li>
+                                                <li class="catalog-nav-submenu__item">
+                                                   <a class="catalog-nav-submenu__link" href="#">
+                                                      <span class="catalog-nav-submenu__categories">Все категории</span>
+                                                   </a>
+                                                </li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="catalog-nav__item">
+                                 <a class="catalog-nav__label" href="#!">
+                                    <span class="catalog-nav__label-text">Мужчинам</span>
+                                 </a>
+                                 <div class="catalog-nav__submenu"></div>
+                              </li>
+                              <li class="catalog-nav__item">
+                                 <a class="catalog-nav__label" href="#!">
+                                    <span class="catalog-nav__label-text">Детям</span>
+                                 </a>
+                                 <div class="catalog-nav__submenu"></div>
+                              </li>
+                              <li class="catalog-nav__item">
+                                 <a class="catalog-nav__label" href="#!">
+                                    <span class="catalog-nav__label-text">Обувь</span>
+                                 </a>
+                                 <div class="catalog-nav__submenu"></div>
+                              </li>
+                              <li class="catalog-nav__item">
+                                 <a class="catalog-nav__label" href="#!">
+                                    <span class="catalog-nav__label-text">Аксессуары</span>
+                                 </a>
+                                 <div class="catalog-nav__submenu"></div>
+                              </li>
+                              <li class="catalog-nav__item">
+                                 <a class="catalog-nav__label" href="#!">
+                                    <span class="catalog-nav__label-text">Спорт</span>
+                                 </a>
+                                 <div class="catalog-nav__submenu"></div>
+                              </li>
+                              <li class="catalog-nav__item">
+                                 <a class="catalog-nav__label" href="#!">
+                                    <span class="catalog-nav__label-text">Бренды</span>
+                                 </a>
+                                 <div class="catalog-nav__submenu"></div>
+                              </li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+                  <div class="location">
+                     <div class="location__header _icon-location">
+                        <span class="location__current ">Санкт-Петербург</span>
+                     </div>
+                     <div class="location__body">
+                        <div class="location-question">
+                           <span class="location-question__text">Ваш регион доставки Санкт-Петербург?</span>
+                           <div class="location-question__buttons">
+                              <div class="location-question__btn" data-location="yes">
+                                 Да, верно
+                              </div>
+                              <div class="location-question__btn location-question__btn--border" data-location="no">
+                                 Нет, уточнить регион
+                              </div>
+                           </div>
+                        </div>
+                        <div class="location-choose">
+                           <div class="location-choose__header">
+                              <input class="location-choose__input" type="text" placeholder="Поиск по городу">
+                           </div>
+                           <div class="location-choose__body" data-simplebar>
+                              <ul class="location-choose__list">
+                                 <li class="location-choose__item">Москва</li>
+                                 <li class="location-choose__item">Санкт-Петербург</li>
+                                 <li class="location-choose__item">Екатеринбург</li>
+                                 <li class="location-choose__item">Омск</li>
+                                 <li class="location-choose__item">Нижний Новгород</li>
+                                 <li class="location-choose__item">Казань</li>
+                                 <li class="location-choose__item">Новоросийск</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <main class="page">
+         <section class="page__top top">
+            <div class="top__container _container">
+               <h1 class="top__title">Связаться с нами</h1>
+
+               <div class="breadcrumbs _icon-home">
+                  <ul class="breadcrumbs__list">
+                     <li class="breadcrumbs__item">
+                        <a href="http://cupcak.ru/">Главная</a>
+                     </li>
+                     <li class="breadcrumbs__item">
+                        <a href="http://cupcak.ru/shop-page.html">Магазин</a>
+                     </li>
+                     <li class="breadcrumbs__item">
+                        <a href="http://cupcak.ru/product-page.html">Страница товара</a>
+                     </li>
+                     <li class="breadcrumbs__item">
+                        <a href="http://cupcak.ru/blog.html">Блог</a>
+                     </li>
+                     <li class="breadcrumbs__item">
+                        <span>Контакт</span>
+                     </li>
+                  </ul>
+               </div>
+
+            </div>
+         </section>
+
+         <div class="page__contact contact">
+            <div class="contact__container _container">
+               <div class="contact__connection connection">
+                  <div class="connection__body">
+                     <div class="connection__column">
+                        <div class="connection__item">
+                           <span class="connection__value">Адрес</span>
+                           <span class="connection__text">2416 Мэйплвью Драйв Тампа, Флорида 33634</span>
+                        </div>
+                     </div>
+                     <div class="connection__column">
+                        <div class="connection__item connection__item_mail">
+                           <span class="connection__value">Наша электронная почта</span>
+                           <span class="connection__text">Основной адрес электронной почты: contact@website.com Запросы: Info@mail.com</span>
+                        </div>
+                     </div>
+                     <div class="connection__column">
+                        <div class="connection__item connection__item_tel">
+                           <span class="connection__value">Наш телефон</span>
+                           <span class="connection__text">Рабочий телефон: 0029129102320 Мобильный: 000 2324 39493</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="contact__inner">
+                  <form class="contact__form" action="#">
+                     <div class="contact__box-input">
+                        <input class="contact__text-input" type="text" name="name" placeholder="Ваше имя" required>
+                        <input class="contact__text-input" type="text" name="email" placeholder="Ваш E-mail адрес" required>
+                     </div>
+                     <textarea class="contact__textarea" placeholder="Ваш текст здесь"></textarea>
+                     <button class="contact__btn _btn" type="submit">Оставить отзыв</button>
+                  </form>
+
+                  <div class="map">
+                     <div id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18044.964477069927!2d38.19909819917585!3d55.573804926484414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414abf8776e6d9ad%3A0x3da6c169cffb9fa!2zTS7QktC40LTQtdC-!5e0!3m2!1sru!2sru!4v1638683116997!5m2!1sru!2sru" width="1200" height="450" style="border:0;" allowfullscreen=""></iframe>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <section class="page__practice practice">
+            <div class="practice__container _container">
+               <h2 class="practice__title _title">Из нашего блога</h2>
+               <div class="practice__body">
+                  <div class="practice__column">
+                     <div class="practice__item item-practice">
+                        <a class="item-practice__images _ibg" href="#">
+                           <picture>
+                              <source srcset="images/content/04.webp" type="image/webp">
+                              <img src="images/content/04.jpg" alt="Блог">
+                           </picture>
+                        </a>
+                        <div class="item-practice__content">
+                           <a class="item-practice__text" href="#">
+                              Пользователь нашего приложения использует мобильное устройство на своем мобильном телефоне
+                           </a>
+                           <div class="item-practice__info">
+                              <p class="item-practice__data">16-04-2021</p>
+                              <a class="item-practice__admin _icon-user" href="#">Администратор</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="practice__column">
+                     <div class="practice__item item-practice">
+                        <a class="item-practice__images _ibg" href="#">
+                           <picture>
+                              <source srcset="images/content/04.webp" type="image/webp">
+                              <img src="images/content/04.jpg" alt="Блог">
+                           </picture>
+                        </a>
+                        <div class="item-practice__content">
+                           <a class="item-practice__text" href="#">
+                              Пользователь нашего приложения использует мобильное устройство на своем мобильном телефоне
+                           </a>
+                           <div class="item-practice__info">
+                              <p class="item-practice__data">16-04-2021</p>
+                              <a class="item-practice__admin _icon-user" href="#">Администратор</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="practice__column">
+                     <div class="practice__item item-practice">
+                        <a class="item-practice__images _ibg" href="#">
+                           <picture>
+                              <source srcset="images/content/04.webp" type="image/webp">
+                              <img src="images/content/04.jpg" alt="Блог">
+                           </picture>
+                        </a>
+                        <div class="item-practice__content">
+                           <a class="item-practice__text" href="#">
+                              Пользователь нашего приложения использует мобильное устройство на своем мобильном телефоне
+                           </a>
+                           <div class="item-practice__info">
+                              <p class="item-practice__data">16-04-2021</p>
+                              <a class="item-practice__admin _icon-user" href="#">Администратор</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="practice__column">
+                     <div class="practice__item item-practice">
+                        <a class="item-practice__images _ibg" href="#">
+                           <picture>
+                              <source srcset="images/content/04.webp" type="image/webp">
+                              <img src="images/content/04.jpg" alt="Блог">
+                           </picture>
+                        </a>
+                        <div class="item-practice__content">
+                           <a class="item-practice__text" href="#">
+                              Пользователь нашего приложения использует мобильное устройство на своем мобильном телефоне
+                           </a>
+                           <div class="item-practice__info">
+                              <p class="item-practice__data">16-04-2021</p>
+                              <a class="item-practice__admin _icon-user" href="#">Администратор</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <footer class="footer">
+         <div class="footer__container _container">
+            <div class="footer__body">
+               <div class="footer__main">
+                  <a href="#" class="footer__logo">
+                     <img class="logo__img " src="images/logo.svg" alt="Lolishop">
+                  </a>
+                  <div class="footer__text">Город Москва. ул. Куйбышева дом 155 офис-7</div>
+                  <address class="footer__contacts contacts-footer">
+                     <a href="#" class="contacts-footer__item _icon-location">ул. Куйбышева <br> дом 155 офис-7</a>
+                     <a href="tel:+82426442" class="contacts-footer__item _icon-phone">+7-342-242-64-42</a>
+                  </address>
+               </div>
+
+               <div data-spollers="768,max" class="footer__menu menu-footer">
+                  <div class="menu-footer__column">
+                     <button type="button" data-spoller class="menu-footer__title _footer-title">Меню</button>
+                     <ul class="menu-footer__list">
+                        <li><a href="#!" class="menu-footer__link">Главная</a></li>
+                        <li><a href="#!" class="menu-footer__link">Магазин</a></li>
+                        <li><a href="#!" class="menu-footer__link">Страница товара</a></li>
+                        <li><a href="#!" class="menu-footer__link">Блог</a></li>
+                        <li><a href="#!" class="menu-footer__link">Контакт</a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-footer__column">
+                     <button type="button" data-spoller class="menu-footer__title _footer-title">Аккаунт</button>
+                     <ul class="menu-footer__list">
+                        <li><a href="#!" class="menu-footer__link">Мой аккаунт</a></li>
+                        <li><a href="#!" class="menu-footer__link">Избранное</a></li>
+                        <li><a href="#!" class="menu-footer__link">Моя корзина</a></li>
+                        <li><a href="#!" class="menu-footer__link">Мой каталог</a></li>
+                     </ul>
+                  </div>
+                  <div class="menu-footer__column">
+                     <button type="button" data-spoller class="menu-footer__title _footer-title">Соцсети</button>
+                     <ul class="menu-footer__list">
+                        <li><a href="#!" class="menu-footer__link _icon-facebook">Facebook</a></li>
+                        <li><a href="#!" class="menu-footer__link _icon-instagram">Instagram</a></li>
+                        <li><a href="#!" class="menu-footer__link _icon-twitter">Twitter</a></li>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="footer__subscribe subscribe">
+                  <div class="subscribe__title _footer-title">Подпишитесь на новости</div>
+                  <form action="#" class="subscribe__form">
+                     <input class="subscribe__input" autocomplete="on" type="text" name="email" placeholder="Ваш email">
+                     <button class="subscribe__button _icon-send" type="submit"></button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+   </div>
+
+   <script src="js/main.min.js"></script>
+</body>
+
+</html>
+<!-- ©Верстка сделана Пенер Галиной 25 декабря 2021 года -->
+<!-- email: galyapener@mail.ru -->
